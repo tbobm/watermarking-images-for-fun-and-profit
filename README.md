@@ -24,6 +24,7 @@ Benchmark 1: poetry run python3 example_pyvips/main.py
 ## Golang + Libvips
 
 ```console
+$ go build
 $ hyperfine  watermark-vips
 Benchmark 1: watermark-vips
   Time (mean ± σ):     292.2 ms ±  24.3 ms    [User: 281.3 ms, System: 72.1 ms]
